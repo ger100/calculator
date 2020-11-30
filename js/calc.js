@@ -19,7 +19,7 @@ btnClear.addEventListener('click', () => {
 
 const btnEqual = document.querySelector('.button2--equal')
 btnEqual.addEventListener('click', () => { 
-    // use the eval() function to evaluate the expression and output it to the display
-    calcOnDisplay=eval(calcOnDisplay)
+    
+    
     display.textContent = calcOnDisplay
 })
